@@ -12,7 +12,7 @@ $mail->IsSMTP();
 $mail->SMTPAuth = true;
 $mail->Host = "mail.limpiemoselreconquista.org"; // SMTP a utilizar. Por ej. smtp.elserver.com
 $mail->Username = "info@limpiemoselreconquista.org"; // Correo completo a utilizar
-$mail->Password = "todosJuntos24"; // Contraseña
+$mail->Password = "*****"; // Contraseña
 $mail->Port = 25; // Puerto a utilizar
 
 //Con estas pocas líneas iniciamos una conexión con el SMTP. Lo que ahora deberíamos hacer, es configurar el mensaje a enviar, el //From, etc.
